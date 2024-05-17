@@ -1,5 +1,4 @@
 import Foundation
-import SwiftEventBus
 
 // MARK: - Welcome
 struct FeatureResponse: Codable {

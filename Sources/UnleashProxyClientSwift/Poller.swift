@@ -1,6 +1,5 @@
 
 import Foundation
-import SwiftEventBus
 
 public protocol PollerSession {
     func perform(_ request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void)

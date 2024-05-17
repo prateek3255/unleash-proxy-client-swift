@@ -11,5 +11,4 @@ spec.swift_version = "5.1"
 spec.source       = { :git => "https://github.com/Unleash/unleash-proxy-client-swift.git", :tag => "#{spec.version}" }
 spec.source_files  = "Sources/UnleashProxyClientSwift/**/*.swift"
 spec.xcconfig = { "SWIFT_VERSION" => "$(inherited)" }
-spec.dependency 'SwiftEventBus'
 end

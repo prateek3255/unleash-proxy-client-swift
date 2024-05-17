@@ -1,5 +1,4 @@
 import Foundation
-import SwiftEventBus
 
 extension Date {
     func iso8601String() -> String {
